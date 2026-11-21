@@ -17,7 +17,7 @@ public class FirstAutomationTest {
         driver= new ChromeDriver();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
     }
     @Test
     public void loginTest(){
